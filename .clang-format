@@ -1,0 +1,5 @@
+---
+BasedOnStyle: 'Google'
+SortIncludes: false
+MaxEmptyLinesToKeep: 2
+# IndentWidth: 4

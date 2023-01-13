@@ -1,0 +1,15 @@
+{
+  "editor.formatOnSave": true,
+  "clang-format.executable": "/usr/bin/clang-format",
+  "clangd.path": "/usr/bin/clangd",
+  "clangd.arguments": [
+    "--background-index",
+    "--clang-tidy",
+    "--log=verbose",
+    "--pretty",
+    "--compile-commands-dir=${workspaceFolder}/build"
+  ],
+  "C_Cpp.autocomplete": "disabled",
+  "C_Cpp.errorSquiggles": "disabled",
+  "C_Cpp.intelliSenseEngine": "disabled"
+}
