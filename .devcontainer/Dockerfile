@@ -25,7 +25,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends build-essential
     # libsdl2-dev libsdl2-image-dev libsdl2-mixer-dev libsdl2-net-dev libsdl2-ttf-dev \
     # libglu1-mesa-dev freeglut3-dev mesa-common-dev libglew-dev libglfw3-dev \
     # qtcreator qtbase5-dev qttools5-dev-tools qtbase5-examples qt5-qmake \
-    # libgtk-4-bin libgtk-4-common libgtk-4-dev \
+    libgtk-4-bin libgtk-4-common libgtk-4-dev \
     && apt-get clean -y && rm -rf /var/lib/apt/lists
 
 
